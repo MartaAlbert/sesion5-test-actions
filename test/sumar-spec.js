@@ -30,4 +30,15 @@ describe('Módulo math', function () {
             assert.equal(math.restar(-2, -3), 1);
         });
     });
+    describe('Función parell_senar', function () {
+        it('Paritat número', function () {
+            assert.equal(math.parell_senar(6), true);
+            assert.equal(math.parell_senar(5), false);
+            assert.equal(math.parell_senar(0), true);
+            assert.equal(math.parell_senar(-2), true);
+            assert.equal(math.parell_senar(-3), false);
+        });
+       
+    });
+    
 });
