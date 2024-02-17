@@ -8,9 +8,9 @@ function restar(a,b) {
 
 function parell_senar(a) {
     if (a%2==0){
-        return true;
+        return 0;
     }else{
-        return false;
+        return 1;
 }
 
 module.exports = {
